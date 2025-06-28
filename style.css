@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #181818;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  width: 300px;
+  padding: 20px;
+  background: #282828;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.album-art {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.now-playing h2, .now-playing h3 {
+  margin: 5px 0;
+}
+
+.controls button {
+  font-size: 24px;
+  margin: 10px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.progress-container {
+  background: #444;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+#progress {
+  background: #1db954;
+  height: 5px;
+  width: 0%;
+  border-radius: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.volume-control {
+  margin: 10px 0;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#playlist li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#playlist li.active {
+  color: #1db954;
+}
+.download a {
+  color: #1db954;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download a:hover {
+  text-decoration: underline;
+}
